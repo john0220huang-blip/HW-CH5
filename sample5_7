@@ -6,7 +6,7 @@ class Sample5_7{
     public static void main(String[] args){
         System.out.println("請輸入字串");
         try{
-            FileWriter fw=new FileWriter("text1.txt");
+            FileWriter fw=new FileWriter("test1.txt");
             PrintWriter pw=new PrintWriter(new BufferedWriter(fw));
             pw.println("Hello!");
             pw.println("Goodbye!");
